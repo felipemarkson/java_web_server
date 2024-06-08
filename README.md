@@ -1,15 +1,12 @@
-# Minimal Java Template
+# Java Web Server Probe
+A Java sockets Web Server for learning purposes.
 
-A minimal template for a quick start with Java on Linux without any IDE or build
-system.
+## How to run it?
 
-## Quick start
-
-- Clone this repository
-- Download and extract the desired JDK in the `jdk/` folder. (You can get it
+- Extract the JDK into the folder `jdk`. (You can get it
   from [Adoptium](https://adoptium.net/))
-- Run `./build_run.sh`
-- Modify it to your needs 👨‍💻.
+- Build with `./build.sh`
+- Run with `./jdk/bin/java -cp bin/ main.Main`
 
 ## Copyright
 

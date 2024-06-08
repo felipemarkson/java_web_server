@@ -10,6 +10,3 @@ JRE_HOME="$JDK_HOME/jre"
 
 # Build
 javac -d bin/ $(find src -name '*.java')
-
-# Run
-java -cp bin/ main.Main
